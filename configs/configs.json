@@ -1,0 +1,10 @@
+{
+  "seq_length": 60,
+  "lstm_units": 128,
+  "dropout_rate": 0.2,
+  "dense_units": 25,
+  "batch_size": 64,
+  "epochs": 15,
+  "use_early_stop": false,
+  "early_stop_patience": 10
+}

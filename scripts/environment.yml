@@ -1,0 +1,15 @@
+name: tf_m1
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - jupyter
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - tensorflow-deps
+  - pip
+  - pip:
+      - tensorflow-macos
+      - tensorflow-metal
+    # Add more pip packages here
