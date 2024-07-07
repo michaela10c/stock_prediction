@@ -1,22 +1,25 @@
 {
   "num_steps": 60,
   "input_size": 1,
+  "test_split": 0.1,
   "lstm": {
     "lstm_units": 128,
+    "lstm_layers": 2,
     "dropout_rate": 0.2,
     "dense_units": 25,
     "batch_size": 64,
-    "epochs": 100,
+    "epochs": 50,
     "use_early_stop": true,
     "early_stop_patience": 10,
     "pretrain": false
   },
   "gru": {
     "gru_units": 128,
+    "gru_layers": 2,
     "dropout_rate": 0.2,
     "dense_units": 25,
     "batch_size": 64,
-    "epochs": 100,
+    "epochs": 50,
     "use_early_stop": true,
     "early_stop_patience": 10,
     "pretrain": false
