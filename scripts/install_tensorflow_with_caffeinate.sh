@@ -51,6 +51,8 @@ if [ ! -f requirements.txt ]; then
 pandas
 matplotlib
 scikit-learn
+tqdm
+
 # Add more libraries here
 EOL
 fi

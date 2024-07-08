@@ -1,4 +1,5 @@
 pandas
 matplotlib
 scikit-learn
+pytorch
 # Add more libraries here
