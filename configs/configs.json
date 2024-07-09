@@ -1,6 +1,6 @@
 {
   "num_steps": 30,
-  "input_size": 10,
+  "input_size": 5,
   "val_split": 0.2,
   "test_split": 0.2,
   "batch_size": 64,
