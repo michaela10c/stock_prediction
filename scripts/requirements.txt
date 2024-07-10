@@ -2,4 +2,8 @@ pandas
 matplotlib
 scikit-learn
 pytorch
+tqdm
+random
+json
+seaborn
 # Add more libraries here
