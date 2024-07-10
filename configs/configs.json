@@ -1,8 +1,8 @@
 {
-  "num_steps": 30,
-  "input_size": 5,
-  "val_split": 0.2,
-  "test_split": 0.2,
+  "num_steps": 3,
+  "input_size": 2,
+  "val_split": 0.1,
+  "test_split": 0.1,
   "batch_size": 64,
   "num_workers": 4,
   "lstm": {
@@ -16,7 +16,7 @@
     "max_epochs": 10,
     "use_early_stop": true,
     "early_stop_patience": 10,
-    "pretrain": false
+    "pretrain": true
   },
   "gru": {
     "gru_units": 64,
@@ -29,6 +29,6 @@
     "max_epochs": 10,
     "use_early_stop": true,
     "early_stop_patience": 10,
-    "pretrain": false
+    "pretrain": true
   }
 }
