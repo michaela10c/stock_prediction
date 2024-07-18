@@ -5,6 +5,9 @@
   "test_split": 0.1,
   "batch_size": 64,
   "num_workers": 8,
+  "volume_threshold": 1000,
+  "open_interest_threshold": 500,
+  "time_interval": 0.5,
   "lstm": {
     "lstm_units": 64,
     "lstm_layers": 2,
