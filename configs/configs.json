@@ -4,7 +4,7 @@
   "val_split": 0.1,
   "test_split": 0.1,
   "batch_size": 64,
-  "num_workers": 4,
+  "num_workers": 8,
   "lstm": {
     "lstm_units": 64,
     "lstm_layers": 2,
@@ -13,9 +13,9 @@
     "init_learning_rate": 0.0001,
     "learning_rate_decay": 0.99,
     "init_epochs": 5,
-    "max_epochs": 50,
+    "max_epochs": 10,
     "use_early_stop": true,
-    "early_stop_patience": 10,
+    "early_stop_patience": 3,
     "pretrain": true
   },
   "gru": {
@@ -26,9 +26,9 @@
     "init_learning_rate": 0.0001,
     "learning_rate_decay": 0.99,
     "init_epochs": 5,
-    "max_epochs": 50,
+    "max_epochs": 10,
     "use_early_stop": true,
-    "early_stop_patience": 10,
+    "early_stop_patience": 3,
     "pretrain": true
   }
 }
