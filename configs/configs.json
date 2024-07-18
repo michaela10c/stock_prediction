@@ -8,6 +8,7 @@
   "volume_threshold": 1000,
   "open_interest_threshold": 500,
   "time_interval": 0.5,
+  "normalize": true,
   "lstm": {
     "lstm_units": 64,
     "lstm_layers": 2,
@@ -16,7 +17,7 @@
     "init_learning_rate": 0.0001,
     "learning_rate_decay": 0.99,
     "init_epochs": 5,
-    "max_epochs": 100,
+    "max_epochs": 50,
     "use_early_stop": true,
     "early_stop_patience": 10,
     "pretrain": true
@@ -29,7 +30,7 @@
     "init_learning_rate": 0.0001,
     "learning_rate_decay": 0.99,
     "init_epochs": 5,
-    "max_epochs": 100,
+    "max_epochs": 50,
     "use_early_stop": true,
     "early_stop_patience": 10,
     "pretrain": true
