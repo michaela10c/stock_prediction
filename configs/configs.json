@@ -1,6 +1,6 @@
 {
-  "num_steps": 3,
-  "input_size": 2,
+  "num_steps": 2,
+  "input_size": 3,
   "val_split": 0.1,
   "test_split": 0.1,
   "batch_size": 64,
@@ -10,7 +10,7 @@
   "time_interval": 0.5,
   "normalize": true,
   "lstm": {
-    "lstm_units": 64,
+    "lstm_units": 128,
     "lstm_layers": 4,
     "dropout_rate": 0.2,
     "dense_units": 25,
@@ -23,7 +23,7 @@
     "pretrain": true
   },
   "gru": {
-    "gru_units": 64,
+    "gru_units": 128,
     "gru_layers": 4,
     "dropout_rate": 0.2,
     "dense_units": 25,
