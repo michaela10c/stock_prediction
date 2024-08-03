@@ -1,12 +1,8 @@
 {
-  "short_period": 12000,
-  "long_period": 26000,
-  "signal_period": 9000,
-  "period": 30000,
-  "num_steps": 10000,
-  "input_size": 5,
-  "time_interval": 1,
+  "num_steps": 1000,
+  "input_size": 3,
   "normalize": true,
+  "batch_size": 32,
   "lstm": {
     "lstm_units": 128,
     "lstm_layers": 3,
@@ -18,7 +14,8 @@
     "max_epochs": 50,
     "use_early_stop": true,
     "early_stop_patience": 5,
-    "pretrain": true
+    "pretrain": true,
+    "num_models": 5
   },
   "gru": {
     "gru_units": 256,
@@ -31,6 +28,7 @@
     "max_epochs": 50,
     "use_early_stop": true,
     "early_stop_patience": 5,
-    "pretrain": true
+    "pretrain": true,
+    "num_models": 5
   }
 }
