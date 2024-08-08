@@ -1,12 +1,12 @@
 {
-  "num_steps": 1000,
-  "input_size": 3,
+  "num_steps": 20,
+  "input_size": 10,
   "normalize": true,
-  "batch_size": 32,
+  "batch_size": 1000,
   "lstm": {
-    "lstm_units": 128,
-    "lstm_layers": 3,
-    "dropout_rate": 0.3,
+    "lstm_units": 250,
+    "lstm_layers": 5,
+    "dropout_rate": 0.1,
     "dense_units": 25,
     "init_learning_rate": 0.001,
     "learning_rate_decay": 0.99,
@@ -18,11 +18,11 @@
     "num_models": 5
   },
   "gru": {
-    "gru_units": 256,
+    "gru_units": 250,
     "gru_layers": 4,
-    "dropout_rate": 0.3,
+    "dropout_rate": 0.1,
     "dense_units": 25,
-    "init_learning_rate": 0.0001,
+    "init_learning_rate": 0.001,
     "learning_rate_decay": 0.99,
     "init_epochs": 5,
     "max_epochs": 50,
