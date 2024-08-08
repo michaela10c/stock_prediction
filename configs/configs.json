@@ -14,7 +14,7 @@
     "max_epochs": 50,
     "use_early_stop": true,
     "early_stop_patience": 5,
-    "pretrain": true
+    "pretrain": false
   },
   "gru": {
     "gru_units": 64,
@@ -27,6 +27,6 @@
     "max_epochs": 50,
     "use_early_stop": true,
     "early_stop_patience": 5,
-    "pretrain": true
+    "pretrain": false
   }
 }
