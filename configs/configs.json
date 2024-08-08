@@ -4,10 +4,10 @@
   "normalize": true,
   "batch_size": 1000,
   "lstm": {
-    "lstm_units": 250,
-    "lstm_layers": 5,
+    "lstm_units": 64,
+    "lstm_layers": 3,
     "dropout_rate": 0.1,
-    "dense_units": 25,
+    "dense_units": 64,
     "init_learning_rate": 0.001,
     "learning_rate_decay": 0.99,
     "init_epochs": 5,
@@ -17,10 +17,10 @@
     "pretrain": true
   },
   "gru": {
-    "gru_units": 250,
+    "gru_units": 64,
     "gru_layers": 4,
-    "dropout_rate": 0.1,
-    "dense_units": 25,
+    "dropout_rate": 0.0,
+    "dense_units": 128,
     "init_learning_rate": 0.001,
     "learning_rate_decay": 0.99,
     "init_epochs": 5,
