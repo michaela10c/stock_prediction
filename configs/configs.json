@@ -27,6 +27,6 @@
     "max_epochs": 100,
     "use_early_stop": true,
     "early_stop_patience": 5,
-    "pretrain": true
+    "pretrain": false
   }
 }
