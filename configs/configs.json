@@ -4,29 +4,29 @@
   "normalize": true,
   "batch_size": 1000,
   "lstm": {
-    "lstm_units": 64,
-    "lstm_layers": 3,
-    "dropout_rate": 0.1,
+    "lstm_units": 128,
+    "lstm_layers": 4,
+    "dropout_rate": 0.0,
     "dense_units": 64,
     "init_learning_rate": 0.001,
     "learning_rate_decay": 0.99,
     "init_epochs": 5,
-    "max_epochs": 7,
+    "max_epochs": 100,
     "use_early_stop": true,
     "early_stop_patience": 5,
-    "pretrain": false
+    "pretrain": true
   },
   "gru": {
     "gru_units": 128,
     "gru_layers": 3,
-    "dropout_rate": 0.1,
+    "dropout_rate": 0.2,
     "dense_units": 128,
     "init_learning_rate": 0.001,
     "learning_rate_decay": 0.99,
     "init_epochs": 5,
-    "max_epochs": 10,
+    "max_epochs": 100,
     "use_early_stop": true,
     "early_stop_patience": 5,
-    "pretrain": false
+    "pretrain": true
   }
 }
