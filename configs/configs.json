@@ -11,8 +11,7 @@
     "init_learning_rate": 0.001,
     "learning_rate_decay": 0.99,
     "init_epochs": 5,
-    "max_epochs": 250,
-    "quantization_interval": 100,
+    "max_epochs": 1000,
     "use_early_stop": true,
     "early_stop_patience": 5,
     "pretrain": true
@@ -25,8 +24,7 @@
     "init_learning_rate": 0.001,
     "learning_rate_decay": 0.99,
     "init_epochs": 5,
-    "max_epochs": 250,
-    "quantization_interval": 100,
+    "max_epochs": 1000,
     "use_early_stop": true,
     "early_stop_patience": 5,
     "pretrain": true
