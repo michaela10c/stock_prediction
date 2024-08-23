@@ -2,7 +2,7 @@
   "num_steps": 20,
   "input_size": 10,
   "normalize": true,
-  "batch_size": 1000,
+  "batch_size": 250,
   "lstm": {
     "lstm_units": 128,
     "lstm_layers": 4,
